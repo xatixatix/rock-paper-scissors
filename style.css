@@ -1,0 +1,55 @@
+body {
+    background-image: url('bg2.jpg');
+    background-size: cover;
+}
+
+#computer {
+    display: none;
+    position: fixed;
+    margin-left: 65vw;
+    margin-top: 2em;
+}
+
+#player {
+    position: fixed;
+    margin-left: 26.5vw;
+    margin-top: 2em;
+}
+
+#nextRound{
+    display: none;
+    margin-top: 3em;
+}
+
+#last-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    margin-top: 1em;
+}
+
+.display-2{
+    text-align: center;
+}
+
+.hand{
+    width: 25%;
+    cursor: pointer;
+}
+
+.hand:hover{
+    width: 27%;
+}
+
+.handC{
+    width: 25%;
+}
+
+
+table{
+    height: 100px;
+}
+
